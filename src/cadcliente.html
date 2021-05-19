@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Login</title>
+
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/cadcliente.css">
+        <!--Importando css do bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    </head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html">Ana Fashion</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                    <li><a href="./cadfun.html">Trabalhe Conosco</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./cadcliente.html"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+          <form action="">
+              <h1>Cadastro de Cliente</h1>
+              <div class="nome">
+                  <input type="text" placeholder="Nome completo">
+              </div>
+              <div class="cpf">
+                  <input type="number" placeholder="CPF">                
+              </div>
+              <div class="tel">
+                  <input type="number" placeholder="Telefone">
+              </div>
+              <div class="select">
+                <label>Selecione o(s) tipo(s) de serviço(s) desejado(s):</label>
+                <select>
+                    <option>Tipo de serviço</option>
+                    <option>Manicure</option>
+                    <option>Designer de sobrancelhas</option>
+                    <option>Maquiadora</option>
+                    <option>Cabeleireiro</option>
+                </select>
+              </div>
+              <div class="data-hora">
+                  <div class="data">
+                      <label>Data:</label>
+                      <input type="date" placeholder="dd/mm/aaaa">
+                      <small id="emailHelp" class="form-text text-muted">
+                          Data para agendamento do serviço.
+                      </small> 
+                  </div>
+                  <div class="hora">
+                      <label>Horário:</label>
+                      <input type="time" placeholder="00:00">
+                      <small id="emailHelp" class="form-text text-muted">
+                          Horário para agendamento do serviço.
+                      </small>
+                  </div>
+              </div>
+              <div class="email">
+                <label>Informe seu melhor email:</label>
+                <input type="email" placeholder="meuemail@gmail.com">
+                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email com ninguém.</small>
+              </div>
+              <div class="senha">
+                <label>Senha:</label>
+                <input type="password">
+                <small id="emailHelp" class="form-text text-muted">
+                  Deve ter entre 8 e 20 caracteres.
+                </small>
+              </div>
+              <div class="senha">
+                <label>Confirme sua senha:</label>
+                <input type="password">
+                <small id="emailHelp" class="form-text text-muted">
+                  Deve ter entre 8 e 20 caracteres.
+                </small>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm">Cadastrar</button>
+          </form>
+      </div>
+    </main>
+    <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="index.html">Home</a></li>
+              <li class="list-inline-item"><a href="./cadfun.html">Trabalhe conosco</a></li>
+              <li class="list-inline-item"><a href="#">Cadastre-se</a></li>
+          </ul>
+          <p class="copyright">Site feito pela empresa MWS © 2021</p>
+      </footer>
+  </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
