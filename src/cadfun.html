@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Login</title>
+        <title>Trabalhe Conosco</title>
 
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/global.css">
@@ -38,7 +38,7 @@
     <main>
         <div class="form">
           <form action="">
-              <h1>Trabalhe Conosco</h1>
+              <h1>Cadastrar Currículo</h1>
               <div class="nome">
                   <input type="text" placeholder="Nome completo">
               </div>
@@ -49,7 +49,7 @@
                   <input type="number" placeholder="Telefone">
               </div>
               <div class="select">
-                <label>Selecione o(s) tipo(s) de serviço(s) desejado(s):</label>
+                <label>Informe o tipo de serviço que pretende exercer:</label>
                 <select>
                     <option>Tipo de serviço</option>
                     <option>Manicure</option>
@@ -58,39 +58,23 @@
                     <option>Cabeleireiro</option>
                 </select>
               </div>
-              <div class="data-hora">
-                  <div class="data">
-                      <label>Data:</label>
-                      <input type="date" placeholder="dd/mm/aaaa">
-                      <small id="emailHelp" class="form-text text-muted">
-                          Data para agendamento do serviço.
-                      </small> 
-                  </div>
-                  <div class="hora">
-                      <label>Horário:</label>
-                      <input type="time" placeholder="00:00">
-                      <small id="emailHelp" class="form-text text-muted">
-                          Horário para agendamento do serviço.
-                      </small>
-                  </div>
-              </div>
               <div class="email">
                 <label>Informe seu melhor email:</label>
                 <input type="email" placeholder="meuemail@gmail.com">
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email com ninguém.</small>
               </div>
               <div class="senha">
-                <label>Senha:</label>
-                <input type="password">
+                <label>Possui quanto tempo de experiência profissional:</label>
+                <textarea>Possuo 2 anos de experiência profissional sendo cabelereiro.</textarea>
                 <small id="emailHelp" class="form-text text-muted">
-                  Deve ter entre 8 e 20 caracteres.
+                  *opcional
                 </small>
               </div>
               <div class="senha">
-                <label>Confirme sua senha:</label>
-                <input type="password">
+                <label>Adcione seu currículo aqui:</label>
+                <input type="file">
                 <small id="emailHelp" class="form-text text-muted">
-                  Deve ter entre 8 e 20 caracteres.
+                  Somente arquivos no formato *.pdf, *.docx e *.doc.
                 </small>
               </div>
               <button type="button" class="btn btn-primary btn-sm">Cadastrar</button>
@@ -101,9 +85,9 @@
       <footer>
           <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
           <ul class="list-inline">
-              <li class="list-inline-item"><a href="index.html">Home</a></li>
-              <li class="list-inline-item"><a href="#">Trabalhe conosco</a></li>
-              <li class="list-inline-item"><a href="#">Cadastre-se</a></li>
+              <li class="list-inline-item"><a href="../index.html">Home</a></li>
+              <li class="list-inline-item"><a href="./cadfun.html">Trabalhe conosco</a></li>
+              <li class="list-inline-item"><a href="./cadcliente.html">Cadastre-se</a></li>
           </ul>
           <p class="copyright">Site feito pela empresa MWS © 2021</p>
       </footer>
