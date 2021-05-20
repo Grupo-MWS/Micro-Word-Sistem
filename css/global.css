@@ -11,6 +11,11 @@
     left: 0;
 }
 
+.cabecalho select {
+  background-color: #222;
+  border: none;
+}
+
 body {
     font: 400 14px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
