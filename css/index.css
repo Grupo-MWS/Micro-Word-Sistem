@@ -1,7 +1,3 @@
-body {
-    background-image: url(../img/fundo.jpg);
-}
-
 .total { /*Deixar o conteúdo da div tudo ao lado do outro*/
     width: 100%;
     max-width: 1120px;
@@ -17,6 +13,10 @@ body {
 .total section.text {
     width: 100%;
     max-width: 350px;
+}
+
+.total section.text .desc-ana, #myCarousel {
+    margin-top: 41px;
 }
 
 .total section.text h1 {

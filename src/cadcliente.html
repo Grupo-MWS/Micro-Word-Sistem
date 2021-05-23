@@ -24,22 +24,26 @@
               </div>
               <ul class="nav navbar-nav">
                 <li class="active"><a href="../index.html">Home</a></li>
-                <li><a href="#">Parceiros</a></li>
+                <li><a href="../src/parceiros.html">Parceiros</a></li>
                 <li><a href="../src/cadfun.html">Trabalhe Conosco</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../src/cadcliente.html"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
-                  <select>
-                  <option selected>Login</option>
-                  <a href="#"><option>Cliente</option></a>
-                  <a href="#"><option>Funcionário</option></a>
-                </select>              
-              </a></li>
+                <li>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="glyphicon glyphicon-log-in"></span> Login
+                    </button>
+                    <div class="dropdown-menu">
+                      <div class="n1"><a class="dropdown-item" href="./logincliente.html">Cliente</a></div>
+                      <div class="n2"><a class="dropdown-item" href="./loginfun.html">Funcionário</a></div>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </nav>
-    </div>
+        </div>
     </header>
     <main>
         <div class="form">
@@ -99,7 +103,7 @@
                   Deve ter entre 8 e 20 caracteres.
                 </small>
               </div>
-              <button type="button" class="btn btn-primary btn-sm">Cadastrar</button>
+              <input type="submit" value="Entrar">
           </form>
       </div>
     </main>
