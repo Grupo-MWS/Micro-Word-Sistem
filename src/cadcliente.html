@@ -49,24 +49,63 @@
         <div class="form">
           <form action="">
               <h1>Cadastro de Clientes</h1>
-              <div class="nome">
-                  <input type="text" placeholder="Nome completo">
+              <div class="email">
+                <label>Nome completo:</label>
+                <input type="text" placeholder="Maria Lúcia da Silva">
               </div>
-              <div class="cpf">
-                  <input type="number" placeholder="CPF">                
+              <div class="email">
+                <label>CPF:</label>
+                <input type="text" placeholder="xxx.xxx.xxx-xx">                
               </div>
-              <div class="tel">
-                  <input type="number" placeholder="Telefone">
+              <div class="email">
+                <label>Telefone:</label>
+                <input type="text" placeholder="(xx) xxxxx-xxxx">
+              </div>
+              <div class="email">
+                <label>Data de nascimento:</label>
+                <input type="date">
+              </div>
+              <div class="select">
+                <label>Sexo:</label>
+                <div class="email" id="email">
+                  <div class="form-check">
+                    <div class="tp">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Feminino
+                    </label>
+                  </div>
+                  </div>
+                  <div class="form-check">
+                    <div class="tp">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                    <label class="form-check-label" for="exampleRadios1">
+                      Masculino
+                    </label>
+                  </div>
+                  </div>
+                </div>
               </div>
               <div class="select">
                 <label>Selecione o(s) tipo(s) de serviço(s) desejado(s):</label>
-                <select>
-                    <option>Tipo de serviço</option>
-                    <option>Manicure</option>
-                    <option>Designer de sobrancelhas</option>
-                    <option>Maquiadora</option>
-                    <option>Cabeleireiro</option>
-                </select>
+                <fieldset>
+                  <div class="tp">
+                    <input type="checkbox" class="man" checked>
+                    <label>Manicure</label>
+                  </div>
+                  <div class="tp">
+                    <input type="checkbox" class="de">
+                    <label>Designer de sobrancelhas</label>
+                  </div>
+                  <div class="tp">
+                    <input type="checkbox" class="maq">
+                    <label>Maquiadora</label>
+                  </div>
+                  <div class="tp">
+                    <input type="checkbox" class="cab">
+                    <label>Cabeleireiro</label>
+                  </div>
+                </fieldset>
               </div>
               <div class="data-hora">
                   <div class="data">
@@ -109,14 +148,15 @@
     </main>
     <div class="footer-basic">
       <footer>
-          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-          <ul class="list-inline">
-              <li class="list-inline-item"><a href="index.html">Home</a></li>
-              <li class="list-inline-item"><a href="./cadfun.html">Trabalhe conosco</a></li>
-              <li class="list-inline-item"><a href="../src/cadcliente.html">Cadastre-se</a></li>
-          </ul>
-          <p class="copyright">Site feito pela empresa MWS © 2021</p>
-      </footer>
+        <div class="social"><a href="https://www.instagram.com
+          "><i class="icon ion-social-instagram"></i></a><a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/login?lang=pt"><i class="icon ion-social-twitter"></i></a><a href="https://pt-br.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="../index.html">Home</a></li>
+            <li class="list-inline-item"><a href="./cadfun.html">Trabalhe conosco</a></li>
+            <li class="list-inline-item"><a href="./cadcliente.html">Cadastre-se</a></li>
+        </ul>
+        <p class="copyright"><a href="./mws.html">Site feito pela empresa MWS © 2021</a></p>
+    </footer>
   </div>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

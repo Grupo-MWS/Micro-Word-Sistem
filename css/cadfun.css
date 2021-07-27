@@ -14,6 +14,16 @@
     margin-top: 5px;
 }
 
+.form form .select fieldset .tp {
+    display: flex;
+    align-items: center;
+}
+
+.form form .select fieldset .tp input {
+    width: 40px;
+    height: 15px;
+}
+
 .form form input:hover {
     filter: brightness(95%);
 }
@@ -57,7 +67,11 @@
 }
 
 .form form .senha input {
+    width: 80%;
+    height: 30px;
+    padding: 0;
     border: none;
+    border-radius: 0;
 }
 
 .btn-sm{

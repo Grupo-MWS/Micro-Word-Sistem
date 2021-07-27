@@ -10,8 +10,33 @@
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
 
-.form form .select {
+.form form .select .tp {
+    display: flex;
+    align-items: center;
+}
+
+.form form .select .tp input {
+    width: 40px;
+    height: 15px;
+}
+
+.form form .select label {
     margin-top: 5px;
+}
+
+.form form .select #email {
+    display: flex;
+    align-items: center;
+}
+
+.form form .select fieldset .tp {
+    display: flex;
+    align-items: center;
+}
+
+.form form .select fieldset .tp input {
+    width: 40px;
+    height: 15px;
 }
 
 .form form .data-hora {
@@ -32,16 +57,6 @@
 
 .form form input:hover {
     filter: brightness(95%);
-}
-
-.form form select {
-    width: 56%;
-    height: 40px;
-    color: #333;
-    border: 1px solid #dcdce6;
-    border-radius: 8px;
-    padding: 0 24px;
-    margin-top: 5px;
 }
 
 .form form select:hover {
